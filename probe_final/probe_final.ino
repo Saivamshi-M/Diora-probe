@@ -42,12 +42,7 @@ void loop() {
   fsrReading = analogRead(fsrPin);  
   Serial.print("Analog reading = ");
   Serial.println(fsrReading);
-  // display.clearDisplay(); // Clear the buffer
-  // display.setTextSize(2); // Set text size to normal
-  // display.setTextColor(SSD1306_WHITE); 
-  // display.setCursor(1,0); 
-  // display.println("Detecting");
-  // display.display();
+  
  
   // analog voltage reading ranges from about 0 to 1023 which maps to 0V to 5V (= 5000mV)
   fsrVoltage = map(fsrReading, 0, 1023, 0, 5000);
