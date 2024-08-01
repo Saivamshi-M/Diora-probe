@@ -1,2 +1,2 @@
 # Diora-probe
-This project is about the solution for the problem statement by the dental startup company
+the project is based on the pressure limiting periodontal probe used to measure the applied pressure of 0.2newton.
